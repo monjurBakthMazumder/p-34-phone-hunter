@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 
 const Sidebar = () => {
     return (
-        <div className="drawer lg:drawer-open lg:w-80">
+        <div className="drawer lg:drawer-open lg:w-80 z-50">
             <input id="my-drawer-2" type="checkbox" className="drawer-toggle " />
             <div className="drawer-content flex justify-end pr-[5%] md:pr-[10%]">
                 <label htmlFor="my-drawer-2"  tabIndex={0} className="btn btn-ghost lg:hidden">

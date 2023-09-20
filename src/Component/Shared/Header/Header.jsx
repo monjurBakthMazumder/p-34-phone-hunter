@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 
 const Header = () => {
     return (
-        <div className="navbar bg-base-100 border-b-4 md:px-[10%]">
+        <div className="navbar bg-base-100 border-b-4 md:px-[10%] z-40">
             <div className="mr-auto">
                 <a className="btn btn-ghost normal-case text-xl md:text-2xl">Phone Hunter</a>
             </div>
@@ -15,7 +15,7 @@ const Header = () => {
                 <li><NavLink to={'/profile'}>Profile</NavLink></li>
                 </ul>
             </div>
-            <div className="">
+            <div className="z-50 bg-white static">
                 <div className="dropdown dropdown-end">
                     <label tabIndex={0} className="btn btn-ghost lg:hidden">
                         <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
